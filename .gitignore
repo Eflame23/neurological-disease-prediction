@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Large trained model files
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Serialized model / preprocessing artifacts
+*.pkl
+
+# Dataset files
+*.csv
+
+# Training checkpoints
+checkpoints/
+runs/
+logs/
+
+# Google Colab temporary files
+/content/
+
+# OS files
+.DS_Store
+Thumbs.db
